@@ -6,4 +6,5 @@ RUN mkdir /usr/src/app -p
 WORKDIR /usr/src/app/
 
 ADD . /usr/src/app/
+chmod a+x stream.sh
 CMD ./stream.sh
